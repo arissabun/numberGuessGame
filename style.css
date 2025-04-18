@@ -1,0 +1,95 @@
+/* General Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffe6f1; /* Soft pink background */
+    color: #2e1616;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #ff85a1; /* Light pink color */
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  
+  /* Scoreboard and Round Display */
+  .scoreboard, .round {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #ff6b81; /* Soft pink for scores */
+    font-weight: 600;
+  }
+  
+  .scoreboard span, .round span {
+    font-weight: bold;
+  }
+  
+  /* Input and Button Styles */
+  input[type="number"] {
+    padding: 15px;
+    width: 80px;
+    font-size: 1.5em;
+    margin: 10px;
+    background-color: #fff;
+    border: 2px solid #ff85a1;
+    border-radius: 12px;
+    color: #ff85a1;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background-color: #ff85a1;
+    color: white;
+    border: 2px solid #ff85a1;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Hover Effect */
+  button:hover {
+    background-color: #ff6b81;
+    border-color: #ff6b81;
+  }
+  
+  /* Result Text */
+  .result {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #ff6b81; /* Soft pink color for result text */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Cute Icon Style */
+  input[type="number"]:focus {
+    border-color: #ff6b81;
+    box-shadow: 0 0 5px 3px rgba(255, 107, 129, 0.5);
+  }
+  
+  /* Cute Pink Footer or Border */
+  footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ff85a1;
+    font-size: 1.2em;
+  }
+  
+  /* Additional Kawaii touches (optional) */
+  img.kawaii-img {
+    max-width: 100px;
+    margin: 20px;
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 0.2));
+  }
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Number Guessing Game</h1>
+<p>Guess a number between 0-9<br>
+    Was your guess closer to the target number,<br>
+    or did the computer destory you? 
+</p>
+
+  <div>
+    <label for="humanGuess">Your Guess:</label>
+    <input type="number" id="humanGuess" min="0" max="9" />
+    <button onclick="playRound()">Submit Guess</button>
+  </div>
+
+  <div class="result" id="resultText"></div>
+
+  <div class="scoreboard">
+    Human Score: <span id="humanScore">0</span><br/>
+    Computer Score: <span id="computerScore">0</span>
+  </div>
+
+  <div class="round">
+    Current Round: <span id="roundNumber">1</span>
+  </div>
+
+  <div class="img">
+    <img src="images/cryingcat.png">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
